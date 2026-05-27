@@ -17,7 +17,7 @@
 
 1. استنساخ المستودع:
    git clone https://github.com/yourusername/AsyncRecon.git
-   cd AsyncRecon
+   cd AsyncRecon-Framework
 
 2. إنشاء بيئة افتراضية:
    python3 -m venv recon_env
