@@ -47,7 +47,7 @@ python async_recon.py -t <TARGET_IP> [الخيارات]
 أمثلة التشغيل:
 
 فحص النطاق الافتراضي:
-python async_recon.py -t 192.168.1.1
+python async_recon.py -t 10.0.0.5 -c 5000 -s 1 -e 1024
 
 فحص مكثف لجميع المنافذ (1-65535) بـ 5000 اتصال متزامن:
 python async_recon.py -t 10.0.0.5 -c 5000 -s 1 -e 65535
